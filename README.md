@@ -1,0 +1,2 @@
+# PHP foreach loop and unset() function bug
+This repository demonstrates a common bug in PHP when using the unset() function within a foreach loop to modify an array.  The issue arises from the way foreach handles array keys, and removing elements can throw off the iteration.
